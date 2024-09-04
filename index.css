@@ -20,56 +20,43 @@
   left: 128px;
 }
 
-.empty-state .plus-three-point {
+.empty-state .add-points-btns-home-2 {
+  position: absolute;
+  width: 155px;
+  height: 45px;
+  top: 330px;
+  left: 383px;
+}
+
+.empty-state button {
   position: absolute;
   width: 47px;
   height: 45px;
-  top: 0;
+}
+
+.empty-state .plus-three-point {
   left: 110px;
 }
 
-.empty-state .overlap-group {
-  position: relative;
-  width: 45px;
-  height: 45px;
-  border-radius: 5px;
-  border: 2px solid;
-  border-color: #99aad7;
-}
-
-.empty-state .text-wrapper {
-  top: 7px;
-  left: 5px;
-  position: absolute;
-  width: 30px;
-  font-family: "Cursed Timer ULiL-Regular", Helvetica;
-  font-weight: 400;
-  color: #99aad7;
-  font-size: 18px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 27.8px;
-  white-space: nowrap;
-}
-
 .empty-state .plus-two-point {
-  position: absolute;
-  width: 47px;
-  height: 45px;
-  top: 0;
   left: 54px;
 }
 
+.empty-state .plus-one-point {
+  left: 0;
+}
+
+.empty-state .overlap-group,
 .empty-state .overlap {
   position: relative;
   width: 45px;
   height: 45px;
   border-radius: 5px;
+  border: 2px solid #99aad7;
 }
 
+.empty-state .text-wrapper,
 .empty-state .text-wrapper-2 {
-  top: 9px;
-  left: 7px;
   position: absolute;
   width: 30px;
   font-family: "Cursed Timer ULiL-Regular", Helvetica;
@@ -77,9 +64,18 @@
   color: #99aad7;
   font-size: 18px;
   text-align: center;
-  letter-spacing: 0;
   line-height: 27.8px;
   white-space: nowrap;
+}
+
+.empty-state .text-wrapper {
+  top: 7px;
+  left: 5px;
+}
+
+.empty-state .text-wrapper-2 {
+  top: 9px;
+  left: 7px;
 }
 
 .empty-state .rectangle {
@@ -89,24 +85,7 @@
   top: 0;
   left: 0;
   border-radius: 5px;
-  border: 2px solid;
-  border-color: #99aad7;
-}
-
-.empty-state .plus-one-point {
-  position: absolute;
-  width: 47px;
-  height: 45px;
-  top: 0;
-  left: 0;
-}
-
-.empty-state .add-points-btns-home-2 {
-  position: absolute;
-  width: 155px;
-  height: 45px;
-  top: 330px;
-  left: 383px;
+  border: 2px solid #99aad7;
 }
 
 .empty-state .overlap-2 {
@@ -137,7 +116,6 @@
   color: #f94f6d;
   font-size: 90px;
   text-align: center;
-  letter-spacing: 0;
   line-height: 126.7px;
   white-space: nowrap;
 }
@@ -160,7 +138,6 @@
   color: #eeeeee;
   font-size: 40px;
   text-align: center;
-  letter-spacing: 0;
   line-height: 35.9px;
 }
 
@@ -174,7 +151,6 @@
   color: #eeeeee;
   font-size: 40px;
   text-align: center;
-  letter-spacing: 0;
   line-height: 35.9px;
 }
 
@@ -190,7 +166,14 @@
   color: #ffffff;
   font-size: 50px;
   text-align: center;
-  letter-spacing: 0;
   line-height: 27.8px;
   white-space: nowrap;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
 }
