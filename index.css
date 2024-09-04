@@ -1,0 +1,196 @@
+.empty-state {
+  position: absolute;
+  width: 667px;
+  height: 430px;
+  background: #1B244A;
+}
+
+.empty-state .div {
+  background-color: #1b244a;
+  width: 667px;
+  height: 430px;
+  position: relative;
+}
+
+.empty-state .add-points-btns-home {
+  position: absolute;
+  width: 155px;
+  height: 45px;
+  top: 330px;
+  left: 128px;
+}
+
+.empty-state .plus-three-point {
+  position: absolute;
+  width: 47px;
+  height: 45px;
+  top: 0;
+  left: 110px;
+}
+
+.empty-state .overlap-group {
+  position: relative;
+  width: 45px;
+  height: 45px;
+  border-radius: 5px;
+  border: 2px solid;
+  border-color: #99aad7;
+}
+
+.empty-state .text-wrapper {
+  top: 7px;
+  left: 5px;
+  position: absolute;
+  width: 30px;
+  font-family: "Cursed Timer ULiL-Regular", Helvetica;
+  font-weight: 400;
+  color: #99aad7;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 27.8px;
+  white-space: nowrap;
+}
+
+.empty-state .plus-two-point {
+  position: absolute;
+  width: 47px;
+  height: 45px;
+  top: 0;
+  left: 54px;
+}
+
+.empty-state .overlap {
+  position: relative;
+  width: 45px;
+  height: 45px;
+  border-radius: 5px;
+}
+
+.empty-state .text-wrapper-2 {
+  top: 9px;
+  left: 7px;
+  position: absolute;
+  width: 30px;
+  font-family: "Cursed Timer ULiL-Regular", Helvetica;
+  font-weight: 400;
+  color: #99aad7;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 27.8px;
+  white-space: nowrap;
+}
+
+.empty-state .rectangle {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  border: 2px solid;
+  border-color: #99aad7;
+}
+
+.empty-state .plus-one-point {
+  position: absolute;
+  width: 47px;
+  height: 45px;
+  top: 0;
+  left: 0;
+}
+
+.empty-state .add-points-btns-home-2 {
+  position: absolute;
+  width: 155px;
+  height: 45px;
+  top: 330px;
+  left: 383px;
+}
+
+.empty-state .overlap-2 {
+  position: absolute;
+  width: 155px;
+  height: 121px;
+  top: 183px;
+  left: 128px;
+}
+
+.empty-state .home-score {
+  position: absolute;
+  width: 155px;
+  height: 120px;
+  top: 1px;
+  left: 0;
+  background-color: #080001;
+  border-radius: 5px;
+}
+
+.empty-state .home-points-text {
+  position: absolute;
+  width: 117px;
+  top: 0;
+  left: 18px;
+  font-family: "Cursed Timer ULiL-Regular", Helvetica;
+  font-weight: 400;
+  color: #f94f6d;
+  font-size: 90px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 126.7px;
+  white-space: nowrap;
+}
+
+.empty-state .overlap-3 {
+  position: absolute;
+  width: 155px;
+  height: 121px;
+  top: 183px;
+  left: 383px;
+}
+
+.empty-state .board-title-home {
+  position: absolute;
+  width: 149px;
+  top: 126px;
+  left: 131px;
+  font-family: "Verdana-Bold", Helvetica;
+  font-weight: 700;
+  color: #eeeeee;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 35.9px;
+}
+
+.empty-state .board-title-home-2 {
+  position: absolute;
+  width: 149px;
+  top: 126px;
+  left: 386px;
+  font-family: "Verdana-Bold", Helvetica;
+  font-weight: 700;
+  color: #eeeeee;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 35.9px;
+}
+
+.empty-state .text-wrapper-3 {
+  position: absolute;
+  top: 52px;
+  left: 245px;
+  -webkit-text-stroke: 1px #000000;
+  filter: blur(2px);
+  font-family: "Inter-ExtraBoldItalic", Helvetica;
+  font-weight: 800;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 27.8px;
+  white-space: nowrap;
+}
