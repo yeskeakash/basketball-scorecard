@@ -17,3 +17,20 @@ function updateScore(team, points) {
         document.getElementById('guest-score').innerText = guestScore;
     }
 }
+
+let screen = document.getElementById("screen")
+
+function endGame(){
+    screen.classList.add("end-game-message")
+    if(homeScore > guestScore){
+        screen.textContent = "Home team Beats loser guests 😈😈😈"
+    }
+    else if(homeScore < guestScore){
+        screen.textContent = "Guests won by luck 💩💩💩"
+    }
+    else{
+        screen.textContent = "Hooraay! It's a tie 🎉🎉🎉"
+    }
+    homeScore = 0;
+    guestScore = 0;
+}

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="empty-state">
+    <div class="empty-state" id="screen">
         <div class="add-points-btns-home">
             <button class="plus-three-point" id="home-plus-3">
                 <div class="overlap">
@@ -60,6 +60,12 @@
         <div class="board-title-home">HOME</div>
         <div class="board-title-home-2">GUEST</div>
         <div class="text-wrapper-3">SCORE</div>
+
+        <div class="reset-btn">
+            <button class="reset" id="reset" onclick="endGame()">
+                FINISH GAME
+            </button>
+        </div>
     </div>
     <script src="index.js"></script>
 </body>
