@@ -1,8 +1,17 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1B244A; /* Optional: Set a background color for the body */
+}
+
 .empty-state {
-  position: absolute;
   width: 667px;
   height: 430px;
   background: #1B244A;
+  position: relative;
 }
 
 .empty-state .div {
